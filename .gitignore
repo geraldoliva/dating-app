@@ -1,6 +1,55 @@
+*.suo
+.env
+
+# Ignore SQLite database and related files
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific files
+*.user
+*.vspscc
+*.vssscc
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+*.pid
+*.seed
+
+# Build results
 bin/
 obj/
-*.user
-*.suo
+
+# Visual Studio folders
+.vscode/
 .vs/
-.env
+
+# Packages
+packages/
+*.nupkg
+*.snupkg
+
+# Deployment files
+publish/
+
+# Entity Framework
+Data/Migrations/*.Designer.cs
+Data/Migrations/*ModelSnapshot.cs
+
+# Configuration
+appsettings.json
+appsettings.*.json
+
+# Rider (JetBrains)
+.idea/
+
+# Mac OS
+.DS_Store
